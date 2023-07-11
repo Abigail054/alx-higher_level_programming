@@ -1,12 +1,4 @@
 #!/usr/bin/python3
->>> x = "$PYFILE"
-python_script=x
-
-# Check if the file exists
-if ( x = "$python_script" ;
->>> print(x[14])
-   
-else
-    echo "Python script file not found: "x[-2]"
-    exit 1
+# include lists.h
+>>> print("Python - Hello, World.\n!)
 
