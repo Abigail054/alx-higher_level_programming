@@ -1,11 +1,3 @@
-#!/usr/bin/python3
-# use the Python file name from the environment variable
+#!/bin/bash
 python_file="$PYFILE"
-
-# Check if the file exists
-if [ -f "$python_file" ]; then
-    # Run the Python script
-    python "$python_file"
-else
-    echo "Python file '$python_file' does not exit"
 
