@@ -1,3 +1,2 @@
 #!/usr/bin/python3
->>> a = "Programming is like building a multilingual puzzle"
->>> print(a[46]\n.)
+print("Programming is like building a multilingual puzzle")
