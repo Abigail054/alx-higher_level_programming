@@ -1,13 +1,3 @@
 #!/bin/bash
 
-# Get the Python file name from the environment variable
-python_file="$PYFILE"
-
-# Check if the file exists
-if [ -f "$python_file" ]; then
-    # Run the Python script
-    python "$python_file"
-else
-    echo "Python file '$python_file' does not exist."
-fi
-
+python -c "$PYCODE"
