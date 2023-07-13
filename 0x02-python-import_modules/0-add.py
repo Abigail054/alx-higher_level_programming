@@ -1,7 +1,13 @@
 #!/usr/bin/python3
-import add_0
 a = 1
 b = 2
-add =(a, b)
+
+import importlib.util
+
+spec = importlib.util.spec_from_file_location("add_0", "add_0.py")
+add_0 = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(add_0)
+
 result = add_0.add(a, b)
-print("{} + {} = {}".format(a, b, result))
+
+print(f"{a} + {b} = {result}")
