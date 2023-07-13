@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-def add(a, b):
+import add_0
 a = 1
 b = 2
-add = import add_0.find_add(a, b)
-print("<a value> + <b value> = <add(a, b) value>")
+add =(a, b)
+result = add_0.add(a, b)
+print("{} + {} = {}".format(a, b, result))
