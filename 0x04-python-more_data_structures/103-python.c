@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <Python.h>
 
 /**
  * print_python_bytes - Prints bytes information
@@ -6,7 +7,7 @@
  * @p: Python Object
  * Return: no return
  */
-void print_python_bytes
+void print_python_bytes(PyObject *p)
 {
 	char *string;
 	long int size, i, limit;
@@ -46,7 +47,7 @@ void print_python_bytes
  * @p: Python Object
  * Return: no return
  */
-void print_python_list
+void print_python_list(PyObject *p)
 {
 	long int size, i;
 	PyListObject *list;
